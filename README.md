@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import utf16ToUTF8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-utf16-to-utf8-array@deno/mod.js';
+import utf16ToUTF8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-utf16-to-utf8-array@v0.2.0-deno/mod.js';
 ```
 
 #### utf16ToUTF8Array( str )
@@ -109,7 +109,7 @@ var out = utf16ToUTF8Array( '☃' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import utf16ToUTF8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-utf16-to-utf8-array@deno/mod.js';
+import utf16ToUTF8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-utf16-to-utf8-array@v0.2.0-deno/mod.js';
 
 var values;
 var out;
