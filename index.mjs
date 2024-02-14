@@ -1,0 +1,4 @@
+// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import{isPrimitive as s}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string@v0.1.1-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@v0.1.1-esm/index.mjs";function r(r){var e,h,i,p;if(!s(r))throw new TypeError(t("invalid argument. Must provide a string. Value: `%s`.",r));for(i=r.length,h=[],p=0;p<i;p++)(e=r.charCodeAt(p))<128?h.push(e):e<2048?(h.push(192|e>>6),h.push(128|63&e)):e<55296||e>=57344?(h.push(224|e>>12),h.push(128|e>>6&63),h.push(128|63&e)):(p+=1,e=65536+((1023&e)<<10|1023&r.charCodeAt(p)),h.push(240|e>>18),h.push(128|e>>12&63),h.push(128|e>>6&63),h.push(128|63&e));return h}export{r as default};
+//# sourceMappingURL=index.mjs.map
