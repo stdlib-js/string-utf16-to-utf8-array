@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import utf16ToUTF8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-utf16-to-utf8-array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-utf16-to-utf8-array/tags). For example,
+
+```javascript
 import utf16ToUTF8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-utf16-to-utf8-array@v0.2.1-esm/index.mjs';
 ```
 
@@ -114,7 +119,7 @@ var out = utf16ToUTF8Array( '☃' );
 <body>
 <script type="module">
 
-import utf16ToUTF8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-utf16-to-utf8-array@v0.2.1-esm/index.mjs';
+import utf16ToUTF8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-utf16-to-utf8-array@esm/index.mjs';
 
 var values;
 var out;
