@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import utf16ToUTF8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-utf16-to-utf8-array@esm/index.mjs';
+import utf16ToUTF8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-utf16-to-utf8-array@v0.2.1-esm/index.mjs';
 ```
 
 #### utf16ToUTF8Array( str )
@@ -114,7 +114,7 @@ var out = utf16ToUTF8Array( '☃' );
 <body>
 <script type="module">
 
-import utf16ToUTF8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-utf16-to-utf8-array@esm/index.mjs';
+import utf16ToUTF8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-utf16-to-utf8-array@v0.2.1-esm/index.mjs';
 
 var values;
 var out;
