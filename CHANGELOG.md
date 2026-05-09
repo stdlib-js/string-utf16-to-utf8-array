@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-05-09)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`b72a90b`](https://github.com/stdlib-js/stdlib/commit/b72a90bca973631c8626289a4947054e6b9591a8) - **chore:** rename internal variable to `main` in two `string` packages [(#12009)](https://github.com/stdlib-js/stdlib/pull/12009) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-07)
